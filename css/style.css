@@ -3850,7 +3850,9 @@ h5,
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  background-image: linear-gradient(white, #3e64ff);
+  /* background-image: linear-gradient(white, #3e64ff);
+  background: filter(url(../images/about.jpg), blur(8px)); */
+  background-size: cover;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -3934,4 +3936,9 @@ h5,
 .cp-problem:hover {
   transition: 2s;
   opacity: 1;
+}
+
+.icon iconify-icon {
+  color: white;
+  font-size: x-large;
 }
