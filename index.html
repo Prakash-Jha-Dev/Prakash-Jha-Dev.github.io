@@ -74,20 +74,25 @@
                         <div class="img d-flex align-self-stretch align-items-center"
                             style="background-image:url(images/about.jpg);">
                             <div col-md class="cp-problem">
-                                <p>Consider two arrays <i>A</i> and <i>B</i> of size <i>n</i> and <i>m</i> respectively.
-                                    You've to answer <i>Q</i> queries using data from the arrays.
-                                    <br><br>
-                                    In each query, you'll be given a number <i>S</i>. You've to tell the count of
-                                    unique pair of indexes (<sub>i</sub>, <sub>j</sub>) such that <i>A<sub>i</sub></i> + 
-                                    <i>B<sub>j</sub></i> = <i>S</i>.
-                                    <br><br>
+                                <p>
+                                    Welcome to Casino de Numero!<br><br>
+                                    We've a special roulette having <i>N</i> numbers. The roulette will be rotated <i>K</i> times
+                                    and the numbers obtained from each turn would be added to form the correct answer. 
+                                    You've to guess the final number (i.e, sum of numbers after <i>K</i> rotations) which has highest probability to win!!<br><br>
+
                                     Constraints:<br>
-                                    <i>n, m, Q</i> &le; 10<sup>6</sup><br>
-                                    0 &le; <i>Value of any element in array</i> &le; 10<sup>6</sup>
+                                    <i>N</i> &le; 10<sup>4</sup><br>
+                                    <i>K</i> &le; 10<sup>2</sup><br>
+                                    0 &le; <i>Value of any number on roulette</i> &le; 10<sup>6</sup>
 
                                     <br><br>
-                                    Let max value of an element in any array be <i>K</i><br>
-                                    Expected Time Complexity: O(<i>K</i> log(<i>K</i>))
+                                    Let the highest number on roulette be <i>V</i><br>
+                                    Expected Time Complexity: O(<i>K<sup>2</sup>V</i> + <i>KV</i> log(<i>KV</i>))
+                                    <br><br>
+
+                                    Roulette is unbaised. i.e, All position have an equal probability of selection in each turn.<br>
+                                    The distribution of numbers is unknown. There can be multiple occurence of some number at different position 
+                                    and some numbers might not be present at all.
                                 </p>
                             </div>
                         </div>
