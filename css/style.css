@@ -3944,3 +3944,16 @@ h5,
   color: white;
   font-size: x-large;
 }
+
+/* .gallery p {
+  color: aliceblue;
+  font-size: xx-small;
+} */
+
+.photo-info {
+  text-align: right;
+  justify-content: end;
+  align-self: end;
+  color: white;
+  font-size: xx-small;
+}
