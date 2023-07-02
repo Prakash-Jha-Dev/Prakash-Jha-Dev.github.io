@@ -3936,6 +3936,8 @@ h5,
 .cp-problem:hover {
   transition: 2s;
   opacity: 1;
+  overflow: scroll;
+  padding: 10px;
 }
 
 .icon iconify-icon {
