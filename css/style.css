@@ -3929,8 +3929,12 @@ h5,
   justify-content: center;
   text-align: center;
   display: flex;
-  padding: 20px;
   opacity: 0;
+}
+
+.cp-problem p {
+  width: inherit;
+  height: inherit;
 }
 
 .cp-problem:hover {
