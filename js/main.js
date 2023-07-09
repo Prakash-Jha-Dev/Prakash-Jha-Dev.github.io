@@ -462,3 +462,10 @@ $(document).ready(function () {
         "shape": "square"
     });
 });
+
+$(document).click(function() {
+	var _opened = $(".navbar-collapse").hasClass("show");
+	if(_opened === true) {
+		$("button.navbar-toggler").click();
+	}
+});
